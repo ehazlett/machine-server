@@ -10,6 +10,10 @@ import (
 	"github.com/emicklei/go-restful"
 	"github.com/emicklei/go-restful/swagger"
 
+	_ "github.com/docker/machine/drivers/amazonec2"
+	_ "github.com/docker/machine/drivers/digitalocean"
+	_ "github.com/docker/machine/drivers/google"
+	_ "github.com/docker/machine/drivers/rackspace"
 	_ "github.com/docker/machine/drivers/virtualbox"
 )
 
